@@ -46,3 +46,20 @@ grid-area: main;
     background-color: black;
     grid-area: footer;
 }
+
+@media only screen and (max-width:768px){
+.grid-container {
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.125fr 0.125fr 0.625fe 0.125fr;
+    grid-area:
+    "header"
+    "nav"
+    "main"
+    "footer"
+     ;
+
+}
+}
+
+
+
