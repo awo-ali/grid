@@ -1,7 +1,43 @@
 * {
-    background-color: ;
-    display: flex;
-    border: 3px solid black;
+    background-color: hotpink;
+    border: 1px solid black;
     box-sizing: border-box;
+    color: white;
+    font-size: 10px bold;
+    gap: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.grid-container {
+
+}
+
+.header {
+    background-color: black;
+
+}
+
+.nav{
+    background-color: peachpuff;
+
+
+}
+
+.main {
+background-color: lightgrey;
+
+}
+
+.aside{
+    background-color: orange;
+
+
+}
+
+.footer {
+    background-color: black;
+
+
 
 }
