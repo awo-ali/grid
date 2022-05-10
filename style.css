@@ -40,6 +40,7 @@ grid-area: main;
 .aside{
     background-color: orange;
     grid-area: aside;
+   
 }
 
 .footer {
