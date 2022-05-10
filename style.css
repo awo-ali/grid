@@ -4,40 +4,41 @@
     box-sizing: border-box;
     color: white;
     font-size: 10px bold;
-    gap: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 .grid-container {
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas: 
+    "header header header"
+    "aside nav nav"
+    "aside main main"
+    "footer footer footer";
 }
 
-.header {
+.header{
     background-color: black;
-
+    grid-area: header;
 }
 
 .nav{
     background-color: peachpuff;
-
-
+    grid-area: nav;
 }
 
-.main {
+.main{
 background-color: lightgrey;
-
+grid-area: main;
 }
 
 .aside{
     background-color: orange;
-
-
+    grid-area: aside;
 }
 
 .footer {
     background-color: black;
-
-
-
+    grid-area: footer;
 }
